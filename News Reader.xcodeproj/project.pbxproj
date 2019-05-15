@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		226A07842253CEC5008D2EEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226A07832253CEC5008D2EEE /* AppDelegate.swift */; };
-		226A07862253CEC5008D2EEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226A07852253CEC5008D2EEE /* ViewController.swift */; };
 		226A07892253CEC5008D2EEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 226A07872253CEC5008D2EEE /* Main.storyboard */; };
 		226A078B2253CEC9008D2EEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 226A078A2253CEC9008D2EEE /* Assets.xcassets */; };
 		226A078E2253CEC9008D2EEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 226A078C2253CEC9008D2EEE /* LaunchScreen.storyboard */; };
+		229D9A9E2253DC090078B37E /* NewsCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229D9A9D2253DC090078B37E /* NewsCellTableViewCell.swift */; };
+		229D9AA02253E4920078B37E /* ListOfNewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229D9A9F2253E4920078B37E /* ListOfNewsTableViewController.swift */; };
+		229D9AA22253F5EF0078B37E /* NewsJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229D9AA12253F5EF0078B37E /* NewsJson.swift */; };
+		229D9AA42254011C0078B37E /* NewsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229D9AA32254011C0078B37E /* NewsRequest.swift */; };
+		22F51C3D22634FFA00367FDB /* CountryOfNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F51C3C22634FFA00367FDB /* CountryOfNewsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		226A07802253CEC5008D2EEE /* News Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "News Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		226A07832253CEC5008D2EEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		226A07852253CEC5008D2EEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		226A07882253CEC5008D2EEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		226A078A2253CEC9008D2EEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		226A078D2253CEC9008D2EEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		226A078F2253CEC9008D2EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		229D9A9D2253DC090078B37E /* NewsCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCellTableViewCell.swift; sourceTree = "<group>"; };
+		229D9A9F2253E4920078B37E /* ListOfNewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfNewsTableViewController.swift; sourceTree = "<group>"; };
+		229D9AA12253F5EF0078B37E /* NewsJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsJson.swift; sourceTree = "<group>"; };
+		229D9AA32254011C0078B37E /* NewsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRequest.swift; sourceTree = "<group>"; };
+		22F51C3C22634FFA00367FDB /* CountryOfNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryOfNewsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +62,13 @@
 		226A07822253CEC5008D2EEE /* News Reader */ = {
 			isa = PBXGroup;
 			children = (
+				229D9A9D2253DC090078B37E /* NewsCellTableViewCell.swift */,
 				226A07832253CEC5008D2EEE /* AppDelegate.swift */,
-				226A07852253CEC5008D2EEE /* ViewController.swift */,
 				226A07872253CEC5008D2EEE /* Main.storyboard */,
+				22F51C3C22634FFA00367FDB /* CountryOfNewsViewController.swift */,
+				229D9A9F2253E4920078B37E /* ListOfNewsTableViewController.swift */,
+				229D9AA12253F5EF0078B37E /* NewsJson.swift */,
+				229D9AA32254011C0078B37E /* NewsRequest.swift */,
 				226A078A2253CEC9008D2EEE /* Assets.xcassets */,
 				226A078C2253CEC9008D2EEE /* LaunchScreen.storyboard */,
 				226A078F2253CEC9008D2EEE /* Info.plist */,
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				226A07862253CEC5008D2EEE /* ViewController.swift in Sources */,
 				226A07842253CEC5008D2EEE /* AppDelegate.swift in Sources */,
+				22F51C3D22634FFA00367FDB /* CountryOfNewsViewController.swift in Sources */,
+				229D9AA22253F5EF0078B37E /* NewsJson.swift in Sources */,
+				229D9AA42254011C0078B37E /* NewsRequest.swift in Sources */,
+				229D9A9E2253DC090078B37E /* NewsCellTableViewCell.swift in Sources */,
+				229D9AA02253E4920078B37E /* ListOfNewsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VRMJVXXYL3;
 				INFOPLIST_FILE = "News Reader/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +309,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Vlad.News-Reader";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -303,6 +320,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VRMJVXXYL3;
 				INFOPLIST_FILE = "News Reader/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Vlad.News-Reader";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
